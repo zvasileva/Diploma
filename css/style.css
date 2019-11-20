@@ -1,0 +1,876 @@
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(https://zvasileva.github.io/Diploma/fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(https://zvasileva.github.io/Diploma/fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+.header,.footer {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;  
+}
+
+.header-container,.footer-container {
+  height: 100%;  
+  box-sizing: border-box; 
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;    
+  justify-content: center;
+  align-items: flex-end; 
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  fill: #ffffff;
+}
+
+.header-logo-text {
+  align-self: flex-start;
+}
+
+.header-title-container {
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;   
+}
+
+.header-title {
+  color: #ffffff;
+  margin-top: 0;
+  text-align: left; 
+  margin-bottom: 28px;
+  }  
+
+.follow-links-container {
+  width: 100%;
+  margin-bottom: 0;
+  box-sizing: border-box;  
+  display: flex;
+  }
+
+
+.follow-link-container {
+  box-sizing: border-box;
+  display: flex;        
+  justify-content: center;
+  background-color: #5e42b0;
+  }
+
+a {
+  text-decoration: none;
+  display: block;
+  width: 100%;  
+}
+
+.follow-me__container {
+  display: flex;
+  }
+
+.follow-me__icon {
+  fill: #ffffff;  
+}
+
+.follow-me__social-label.label-download {
+  font-family: OpenSans-Regular;    
+}
+  
+.follow-me__social-label.label-store {
+  font-family: OpenSans-Bold;    
+}  
+
+.follow-me__social-label-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.follow-me__social-label {
+  text-transform: uppercase; 
+  color: #ffffff;
+  }
+
+.page-body {
+  box-sizing: border-box;  
+  width: 100%;
+  min-height: 361px; 
+  padding-bottom: 0;
+  }  
+
+.main {
+  display: flex;
+  flex-wrap: wrap;    
+  justify-content: flex-start;
+  align-items: flex-end;
+}  
+  
+.section {
+  position: relative;
+  width: 100%;
+}
+  
+.section-header {  
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  color: #e7e7e7;
+  margin-top: 0;  
+  align-self: flex-start;
+}
+  
+.section__img {
+  position: absolute;
+ }
+
+.article {
+  box-sizing: border-box;
+}
+ 
+.article:nth-child(3n+2) {
+  background-color: #f5f4f9;
+}
+  
+.article.article-athlets:nth-child(3n+3) {
+  background-color: #5e42b0;
+}
+  
+.article.article-players:nth-child(3n+3) {
+  background-color: #090c35;
+}  
+  
+.article-header-container {
+  display: flex;
+  align-items: center; 
+}
+
+.article-header-number {
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: OpenSans-Bold;
+  text-align: center;  
+  position: relative;
+  margin: 0 10px 0 0;
+ }
+  
+.article-header-number.article-players {
+  color: #8765dd;
+}  
+  
+.article-header-number::after  {
+  content:"";
+  width: 100%;
+  height: 14%;
+  background-color: #5e42b0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }
+  
+.article-header-number.article-athlets::after,.article-header-number.article-players::after  {
+  content:"";
+  width: 100%;
+  height: 14%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }
+    
+.article-header {
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  color: #c1c1c1;
+  margin: 0;  
+  text-align: left;
+}
+  
+.article-content {
+  width: 100%;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: OpenSans-Regular; 
+}
+  
+.article-content.article-athlets,.article-content.article-players {
+  color: #ffffff;
+} 
+    
+.section__img_big {
+  width: 100%;
+}
+  
+.article.article_big {
+  position: relative;
+  background-color: #ffffff;
+}
+  
+.article-header-number-container.article_big {
+  position: absolute;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+  
+.article-header-number.article_big {
+  color: #f5f6f7;
+  margin: 0;
+}
+  
+.article-header-number.article_big::after  {
+  content:"";
+  width: 100%;
+  height: 14%;
+  background-color: #9b8ec1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px;  
+}  
+  
+.article-header.article_big {
+  color: #e7e7e7;
+}  
+
+.footer-logo-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e42b0;
+}
+
+.footer-title-container {
+  width: 100%;
+}
+
+.footer-title.title-big {
+  width: 100%;  
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 12.8px;  
+  text-align: center;       
+}  
+
+.footer-title.title-little {
+  width: 100%;
+  font-family: OpenSans-Regular; 
+  color: #9b8ec1;
+  margin-top: 0;
+  text-align: center;       
+}   
+
+.footer-logo-text {
+  align-self: flex-end;
+} 
+
+@media (max-width: 640px) {
+  
+  .header {
+    height: 568px;
+    padding-top: 32px;  
+    padding-bottom: 83px;
+    background-image: url("https://zvasileva.github.io/Diploma/images/top_320.jpg");    
+  }
+  
+  .header-container,.footer-container {
+    width: 87.5%;
+  }
+  
+  .logo {
+    width: 134px;
+    height: 37px;   
+  }
+  
+  .header-title {
+    width: 80%;
+    max-width: 320px;
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+  
+  .header-title.title-center {
+     margin-left: 15%;
+  }  
+  
+  .follow-links-container {
+    min-width: 280px;
+    flex-wrap: wrap;
+  }
+   
+  .follow-link-container {
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 17px;    
+  }
+  
+  .follow-me__social {
+    max-width: 110px;
+  }
+  
+  .follow-me__container {
+    max-width: 110px;
+  }
+  
+  .follow-me__icon {
+    width: 24px;
+    height: 24px;;
+    padding-top: 5px;
+    padding-bottom: 8px;    
+  }
+  
+  .follow-me__social-label-container {
+    display: flex;
+    flex-wrap: wrap;  
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-width: 85px;
+  }
+  
+  .follow-me__social-label {
+    font-size: 8px;
+  }
+  
+  /*.page-body {
+    padding-top: 22px; 
+  } */
+  
+  .section-header {  
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 228px; 
+    padding: 22px 6.2% 0 6.2%;
+  }  
+  
+  .section__img {
+   position: absolute;
+    top: 80px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }  
+  
+  .article {
+    padding: 59px 6.2% 52px 6.2%;
+  } 
+  
+  .article:first-child {
+    padding-top: 81px;
+  } 
+  
+  .article:nth-child(3n+1) {
+    background-color: #fafafa;
+  }  
+  
+  .article.article-players:nth-child(3n+3) {
+    padding-bottom: 23px;
+  }    
+  
+  .article-header-number {
+    font-size: 14px;
+    line-height: 30px;    
+ }  
+  
+  .article-header {
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 30px; 
+ }  
+  
+  .article-content {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }  
+  
+  .article-content.article-players  {
+    margin-top: 58px;
+    margin-left: 13%;
+    width: 87%;
+  }
+  
+  .article.article_big {
+    padding-top: 34px; 
+    padding-bottom: 74px;
+  }  
+  
+  .article-header.article_big {
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 34px;
+  } 
+  
+  .article-header-number-container.article_big {
+    width: 70px;
+    height: 70px; 
+    bottom: 95%; 
+  }  
+  
+  .article-content.article_big {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+    
+  
+  .footer {
+    height: 568px;
+    padding-top: 99px;
+    padding-bottom: 10px;
+    background-image: url("https://zvasileva.github.io/Diploma/images/footer_320.png");
+  }  
+  
+  .footer-logo-container {
+    width: 73px;
+    height: 73px;
+    border-radius: 17px;
+  }
+  
+  .footer-logo {
+    width: 56px;
+    height: 46px;
+  }
+  
+  .footer-title-container {
+    width: 100%;
+  }
+  
+  .footer-title.title-big {
+    font-size: 32px;
+    letter-spacing: 2px;      
+  }  
+  
+  .footer-title.title-little {
+    font-size: 14px;  
+    letter-spacing: 1px;      
+  }  
+  
+}  
+
+@media (min-width: 641px) and (max-width: 960px) {
+  
+  .header {
+    height: 959px;
+    padding-top: 32px;  
+    padding-bottom: 90px;    
+    background-image: url("https://zvasileva.github.io/Diploma/images/top_768.jpg");    
+  }  
+  
+  .header-container,.footer-container {
+    width: 87.5%;
+  }
+    
+   .logo {
+    width: 206px;
+    height: 63px;   
+  }
+  
+  .header-title {
+    font-size: 64px;
+    letter-spacing: 3px;
+  }    
+  
+  .header-title.title-left {    
+    /*margin-left: 34px; */
+    margin-left: 5%;
+  }
+  
+  .header-title.title-center {
+     text-align: left;  
+     /*margin-left: 139px;*/
+     margin-left: 21%;
+  } 
+  
+  /*.page-body {
+    padding-top: 81px; 
+  } */
+  
+  .section-header {  
+    font-size: 80px;
+    line-height: 80px;
+    margin-top: 0;
+    margin-bottom: 59px; 
+    padding-left: 38%;
+    padding-top: 81px;
+  }
+  
+  .section-header.section-players {  
+    padding-left: 4%;
+  }    
+  
+  .section__img.section-athlets__img {
+    position: absolute;
+    top: 91px;
+    right: 62%; 
+  }
+  
+  .section__img.section-players__img {
+    position: absolute;
+    top: 61px;
+    left: 43%; 
+  }
+  
+ .article {
+    padding: 36px 4% 36px 38%;
+  }
+  
+ .article.article-players {
+    padding: 36px 38% 36px 4%;
+  }
+    
+  
+  .article:first-child {
+    padding-top: 81px;
+  }  
+  
+  .article-header-number {
+    font-size: 18px;
+  } 
+  
+  .article-header {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }   
+  
+  .article-content {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }    
+  
+  .article.article_big {
+    padding-top: 85px; 
+    padding-bottom: 104px;
+    padding-left: 5%;
+  }    
+  
+  .article-header-number-container.article_big {
+    width: 117px;
+    height: 117px; 
+    bottom: 95%; 
+  }    
+  
+  .footer {
+    height: 959px;
+    padding-top: 126px;
+    padding-bottom: 22px;
+    background-image: url("https://zvasileva.github.io/Diploma/images/footer_768.png");
+  }  
+  
+  .footer-title.title-little {
+    font-size: 36px;
+    letter-spacing: 1px;     
+  }  
+   
+}
+
+
+@media (min-width: 641px) {
+  
+  .follow-links-container {
+    max-width: 655px;
+    justify-content: space-between;
+  }
+  
+  .follow-link-container {
+    width: 48%;   
+    border-radius: 40px;  
+  }
+  
+  .follow-me__social {
+    max-width: 200px;
+  }
+  
+  .follow-me__container {
+    max-width: 200px;
+  }  
+  
+  .follow-me__icon {
+    width: 38px;
+    height: 45px;
+    padding-top: 20px;
+    padding-bottom: 14px;    
+  }
+  
+  .follow-me__social-label-container {
+    margin-left: 27px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    max-width: 140px;
+  }
+  
+  .follow-me__social-label {
+    font-size: 14px;
+  }  
+  
+  .article-header-number {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 34px;    
+  }       
+  
+  .article-header.article_big {
+    font-size: 80px;
+    line-height: 60px;
+  }
+  
+  .article-content.article_big {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }   
+  
+  .footer-logo-container {
+    width: 136px;
+    height: 136px;
+    border-radius: 35px;
+  }
+  
+  .footer-logo {
+    width: 104px;
+    height: 87px;
+  }
+  
+  .footer-title.title-big {
+    font-size: 80px;
+    letter-spacing: 4px; 
+    line-height: 80px;
+  }  
+  
+}
+
+
+@media (min-width: 961px) {
+  
+  .header {
+    height: 959px;
+    padding-top: 42px;  
+    padding-bottom: 108px;      
+    background-image: url("https://zvasileva.github.io/Diploma/images/top_1920_extra.png"); 
+  }  
+  
+  .header::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 100% auto;*/
+    background-image: url("https://zvasileva.github.io/Diploma/images/top_1920.png");   
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+  }   
+  
+  .header-container,.footer-container {
+    width: 80%;     
+  }
+    
+  .logo {
+    width: 194px;
+    height: 56px;   
+  }
+  
+  .header-title {
+    font-size: 90px;
+    letter-spacing: 5px;
+    max-width: 1536px;
+  }   
+  
+  .header-title.title-left {
+    width: 100%;
+  }    
+  
+  .header-title.title-center {
+    text-align: right;
+  }  
+  
+  /*.page-body {
+    padding-top: 112px; 
+  }*/ 
+  
+  .section-header {  
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 108px; 
+    padding-left: 52%;  
+    padding-top: 112px; 
+  } 
+  
+  .section-header.section-players {  
+    padding-left: 10%;
+  }      
+  
+  .section__img.section-athlets__img {
+    position: absolute;
+    top: 20px;
+    right: 52%; 
+  }  
+  
+  .section__img.section-players__img {
+    position: absolute;
+    top: 20px;
+    left: 42%; 
+  }  
+  
+  .article {
+    padding: 56px 10% 56px 52%;
+  }
+  
+  .article.article-players {
+    padding: 56px 52% 56px 10%;
+  }  
+  
+  .article:first-child {
+    padding-top: 59px;
+  }  
+  
+  .article-header {
+    font-size: 36px;
+    /*font-size: 2vw;*/
+    letter-spacing: 2px;
+   }   
+  
+  .article-content {
+    font-size: 20px;
+    letter-spacing: 1px;
+  } 
+  
+  .section.section-big {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .section-picture.section-big {
+    width: 50%;
+    display: block;
+  }  
+  
+  .section__img_big {
+    height: 100%;
+    margin-bottom: -0.4%;
+  }
+  
+  .section-picture.section-big.find-contact {
+    order: 1;
+  }
+  
+  .articles-container.article_big {
+    width: 50%;
+  }
+  
+  .article.article_big  {
+    padding: 0 9.5% 0 14%; 
+    margin: 0;
+  }
+  
+  .article-header-number-container.article_big {
+    width: 166px;
+    height: 158px;    
+  } 
+ 
+  
+  .article-header-number-container.article_big.be-active, .article-header-number-container.article_big.work-it {
+    left: 0;
+    margin-left: -85px;
+  }  
+  
+  .article-header-number-container.article_big.find-contact {
+    right: 0;  
+    margin-right: -85px;
+  }
+  
+  .article-content.article_big {
+    margin-top: 114px;
+  }   
+  
+  .footer {
+    height: 959px;
+    padding-top: 226px;
+    padding-bottom: 53px;    
+    background-image: url("https://zvasileva.github.io/Diploma/images/footer_extra_1920.png"); 
+  }  
+  
+  .footer::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://zvasileva.github.io/Diploma/images/footer_1920.png");     
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+  } 
+  
+  .footer-container {
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo-container {
+    align-self: auto;
+    width: 7%;
+    margin-left: 27%;
+    margin-right: 0;
+  }
+
+  .footer-title-container {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    margin-left: 1%;
+  }
+  
+  .footer-title.title-big {
+    text-align: left;
+    margin-bottom: 0;
+  } 
+  
+  .footer-title.title-little {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 0;
+  } 
+  
+  .follow-links-container.footer-follow-links-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  
+  .logo.footer-logo-text {
+    display: block;
+    width: 100%;
+    
+  }
+  
+
+}
