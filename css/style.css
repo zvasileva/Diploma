@@ -77,12 +77,20 @@ body {
   display: flex;        
   justify-content: center;
   background-color: #5e42b0;
-  }
+  }	
 
 a {
   text-decoration: none;
   display: block;
   width: 100%;  
+}
+
+.follow-me__social-href {
+  width: 100%;	
+  box-sizing: border-box;
+  display: flex;        
+  justify-content: center;
+  background-color: #5e42b0;	
 }
 
 .follow-me__container {
@@ -321,9 +329,15 @@ a {
    
   .follow-link-container {
     width: 100%;
-    margin-top: 14px;
+    /*margin-top: 14px;*/
     border-radius: 17px;    
   }
+	
+  .follow-me__social-href {
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 17px;    	  
+  }	  
   
   .follow-me__social {
     max-width: 110px;
@@ -599,6 +613,11 @@ a {
     width: 48%;   
     border-radius: 40px;  
   }
+	
+  .follow-link-container {
+    width: 100%;   
+    border-radius: 40px;  
+  }	
   
   .follow-me__social {
     max-width: 200px;
