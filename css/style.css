@@ -880,7 +880,10 @@ a {
   .footer-title.title-big {
     text-align: left;
     margin-bottom: 0;
-  } 
+    font-size: 64px;
+    letter-spacing: 2px; 
+    line-height: 64px;	  
+  }  	
   
   .footer-title.title-little {
     font-size: 30px;
@@ -899,8 +902,7 @@ a {
     width: 100%;
     
   }
-  
-
+	
 }
 
 @media (min-width: 1124px) {
@@ -930,4 +932,11 @@ a {
     letter-spacing: 1px;
     line-height: 28px;
   }   	
+	
+  .footer-title.title-big {
+    font-size: 80px;
+    letter-spacing: 4px; 
+    line-height: 80px;
+  }  
+	
 }	
