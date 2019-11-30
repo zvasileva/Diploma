@@ -790,19 +790,19 @@ a {
   }
   
   .article-header-number-container.article_big {
-    width: 146px;
-    height: 139px;    
+    width: 105px;
+    height: 100px;    
   } 
  
   
   .article-header-number-container.article_big.be-active, .article-header-number-container.article_big.work-it {
     left: 0;
-    margin-left: -75px;
+    margin-left: -55px;
   }  
   
   .article-header-number-container.article_big.find-contact {
     right: 0;  
-    margin-right: -75px;
+    margin-right: -55px;
   }
 	
   .article-header.article_big {
