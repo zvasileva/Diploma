@@ -550,10 +550,10 @@ a {
     font-size: 18px;
   } 
   
-  /*.article-header {
+  .article-header {
     font-size: 32px;
     letter-spacing: 2px;
-  } */  
+  }  
   
   .article-content {
     font-size: 16px;
@@ -632,10 +632,10 @@ a {
     line-height: 34px;    
   }       
   
-  .article-header.article_big {
+  /*.article-header.article_big {
     font-size: 80px;
     line-height: 60px;
-  }
+  }*/
   
   .article-content.article_big {
     font-size: 24px;
@@ -804,6 +804,11 @@ a {
     right: 0;  
     margin-right: -85px;
   }
+	
+  .article-header.article_big {
+    font-size: 80px;
+    line-height: 60px;
+  }	
   
   .article-content.article_big {
     margin-top: 114px;
