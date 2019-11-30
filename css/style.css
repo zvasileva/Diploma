@@ -831,6 +831,9 @@ a {
   
   .article-content.article_big {
     margin-top: 114px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;	  
   }   
   
   .footer {
@@ -920,5 +923,11 @@ a {
   .article-header.article_big {
     font-size: 80px;
     line-height: 60px;
-  }		
+  }	
+	
+  .article-content.article_big {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }   	
 }	
