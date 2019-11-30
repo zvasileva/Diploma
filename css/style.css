@@ -610,11 +610,11 @@ a {
   }
   
   .follow-link-container {
-    width: 48%;   
+    width: 48%;    
     border-radius: 40px;  
   }
 	
-  .follow-link-container {
+  .follow-me__social-href {
     width: 100%;   
     border-radius: 40px;  
   }	
