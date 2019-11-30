@@ -804,11 +804,6 @@ a {
     right: 0;  
     margin-right: -85px;
   }
-	
-  .article-header.article_big {
-    font-size: 80px;
-    line-height: 60px;
-  }	
   
   .article-content.article_big {
     margin-top: 114px;
@@ -880,3 +875,10 @@ a {
   
 
 }
+
+@media (min-width: 1024px) {
+  .article-header.article_big {
+    font-size: 80px;
+    line-height: 60px;
+  }		
+}	
